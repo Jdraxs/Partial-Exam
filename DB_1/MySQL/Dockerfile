@@ -1,0 +1,10 @@
+FROM mysql:8.0
+
+# MYSQL variables
+ENV MYSQL_ROOT_PASSWORD=passwordRoot
+ENV MYSQL_DATABASE=mydatabase
+ENV MYSQL_USER=sosajd
+ENV MYSQL_PASSWORD=sosajd
+
+# MYSQL Ports
+EXPOSE 3306
